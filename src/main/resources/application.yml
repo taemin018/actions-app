@@ -12,7 +12,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://${EC2_DATABASE_HOST}:5432/app?serverTimezone=Asia/Seoul
+    url: jdbc:postgresql://${git}:5432/app?serverTimezone=Asia/Seoul
     username: spring
     password: 1234
   session:
